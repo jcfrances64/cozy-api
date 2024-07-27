@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/create-checkout-session": {
+      "name": "/create-checkout-session",
+      "lambdaFunction": "cozylambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

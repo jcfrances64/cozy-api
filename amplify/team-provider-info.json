@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cozydemo-dev-cf355-authRole",
+      "UnauthRoleArn": "arn:aws:iam::010526255750:role/amplify-cozydemo-dev-cf355-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::010526255750:role/amplify-cozydemo-dev-cf355-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cozydemo-dev-cf355-deployment",
+      "UnauthRoleName": "amplify-cozydemo-dev-cf355-unauthRole",
+      "StackName": "amplify-cozydemo-dev-cf355",
+      "StackId": "arn:aws:cloudformation:us-east-1:010526255750:stack/amplify-cozydemo-dev-cf355/92cd5f60-4ba3-11ef-bac5-12a09ea5ab03",
+      "AmplifyAppId": "di02bgipixhun"
+    },
+    "categories": {
+      "function": {
+        "cozylambda": {
+          "deploymentBucketName": "amplify-cozydemo-dev-cf355-deployment",
+          "s3Key": "amplify-builds/cozylambda-6739446d51696d464931-build.zip"
+        }
+      },
+      "api": {
+        "cozyapi": {}
+      }
+    }
+  }
+}

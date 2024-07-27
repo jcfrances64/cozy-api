@@ -1,0 +1,43 @@
+{
+  "api": {
+    "cozyapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "cozylambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "cozylambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_cozylambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cozylambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_cozylambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cozylambda"
+        }
+      ]
+    }
+  }
+}
